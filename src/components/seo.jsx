@@ -3,7 +3,6 @@ import { useSiteMetadata } from "../hooks/use-site-metadata";
 import { useSiteSchemas } from "../hooks/use-site-schemas";
 
 export const SEO = ({ title, description, pathname, customSchemas= [], children }) => {
-  console.log('🚀 ~ file: seo.jsx:6 ~ SEO ~ customSchemas', customSchemas)
   // get the default metadata set in gatsby-config.js
   const {
     title: defaultTitle,
